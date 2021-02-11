@@ -25,7 +25,7 @@ function verificarRespuestas(){
     }
 
     var resultado = document.getElementById("resultado");
-    resultado.innerHTML = '<h3>Tu puntuación es <span>' + puntos +'</span> de las <span>'+ total +' preguntas, podras ver tu diagnóstico abajo del cuestionario 🡻 gracias por responder.</span></h3>';
+    resultado.innerHTML = '<h3>Tu puntuación es <span>' + puntos +'</span> de las <span>'+ total +' preguntas, podras ver tu diagnóstico abajo del cuestionario ⬇ gracias por responder.</span></h3>';
     
     return false;
 }
